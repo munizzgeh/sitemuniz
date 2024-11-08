@@ -1,0 +1,50 @@
+body {
+    color:black;   
+    background:red;
+    margin: 0px;
+    font-family: "Itim", cursive;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(100, 55, 63);
+}
+
+
+.chamada{
+    background: rgb(224, 26, 0);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+img{
+    height: 350px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
